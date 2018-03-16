@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>第二课堂成绩单管理员界面</title>
+    <link rel="stylesheet"
+	href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+
+<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+<link rel="stylesheet"
+	href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+	integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+	crossorigin="anonymous">
+
+    <style type="text/css">
+       body{
+           margin: 0%;
+           padding: 0%;
+           background: url(http://pic2.bbzhi.com/xuancaibizhi/shuideyunlv/shuideyunlv_96758_5.jpg);
+           background-size: cover;
+       }
+       .use{
+           margin-top: 10%;
+           padding-bottom: 50px;
+           -moz-box-shadow: 0px 0px 20px #333333;
+	       -webkit-box-shadow: 0px 0px 20px #333333;
+	       box-shadow: 0px 0px 20px #333333;
+       }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 use">
+        <h3>管理员登陆</h3>
+            <form method="POST" action="">
+                <div class="form-group">
+                     <label>账&nbsp号</label> <input name="username" type="text"
+                         placeholder="账号" class="form-control">
+                     <label>密&nbsp码</label> <input name="password" type="password"
+                         placeholder="密码" class="form-control">
+                </div>
+              <button type="submit" class="btn btn-primary btn-block">登&nbsp&nbsp&nbsp陆</button>
+              <button class="btn btn-default btn-block" type="reset">重&nbsp&nbsp&nbsp置</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
