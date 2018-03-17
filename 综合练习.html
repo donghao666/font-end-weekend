@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        table table{
+            margin: 0px auto;
+        }
+
+    </style>
+</head>
+<body>
+    <table border="1" cellspacing="0">
+        <caption>综合练习</caption>
+        <tr>
+            <td colspan="2"><img src="logo.png" width="724" height="224"><br><h1>北京欢迎你</h1><br>
+            <h2>有梦想谁都了不起</h2></td>
+        </tr>
+        <tr>
+            <td>
+                <h3>导航</h3>
+                <ul>
+                    <li><a href="/submit/">登录</a></li>
+                    <li><a href="/new/">注册新用户</a></li>
+                </ul>
+            </td>
+            <td>
+                <form action="" method="">
+                    <table border="1" cellspacing="0">
+                        <tr>
+                            <th colspan="4">用户注册</th>
+                        </tr>
+                        <tr>
+                            <td>用户名：</td>
+                            <td><input name="username" type="text"></td>
+                            <th colspan="2"><a href="/check/">检测是否有相同用户名</a></th>
+                        </tr>
+                        <tr>
+                            <td>密码：</td>
+                            <td><input name="password" type="password">*(至少六位)</td>
+                            <td>真实姓名：</td>
+                            <td><input name="relname" type="text">*</td>
+                        </tr>
+                        <tr>
+                            <td>性别：</td>
+                            <td><label><input type="radio" name="sex" name="male">男</label>
+                                <label><input type="radio" name="sex" name="female">女</label></td>
+                            <td>爱好：</td>
+                            <td><label><input type="checkbox" name="interest" name="reading">读书</label>
+                                <label><input type="checkbox" name="interest" name="film">看电影</label></td>
+                        </tr>
+                        <tr>
+                            <td>证件类型：</td>
+                            <td><select name="equipment">
+                                    <option value="1">身份证</option>
+                                    <option value="2">学生证</option>
+                                    <option value="3">护照</option>
+                                    <option value="4">校园卡</option>
+                                </select></td>
+                            <td>证件号码</td>
+                            <td><input name="number" type="number">*</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><input type="reset" value="重置"><input type="submit" value="登录"></td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+            <tr>
+                <td colspan="2">&copy;艾氪森科技</td>
+            </tr>
+    </table>
+</body>
+</html>
