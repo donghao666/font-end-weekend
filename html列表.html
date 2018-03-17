@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>html列表</title>
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <dl>
+        <dt>coffee</dt><dd>black</dd>
+    </dl>
+    <ul>
+        <li>
+           1111110<!--加p标签浏览器会自动添加间距-->
+            <ol>
+                <li>aaa</li>
+                <li>bbb</li>
+                <li>ccc</li>
+            </ol>
+        </li>
+        <li>2222222</li>
+        <li>3333333</li>
+    </ul>
+    <form action="http://baidu.com" method="post" enctype="application/x-www-form-urlencoded">
+        <p>用户名：<input name="username" type="text" value=""></p>
+        <p>密&nbsp;&nbsp;码：<input name="password" type="password" value=""></p>
+        <textarea cols="50" rows="10"></textarea>
+        <p>性别：<label><input type="radio" name="sex" name="male">男</label>
+            <label><input type="radio" name="sex" name="female">女</label></p>
+        <p>爱好：<label><input type="checkbox" name="interest" name="reading">读书</label>
+            <label><input type="checkbox" name="interest" name="film">看电影</label></p>
+        <p><input type="reset" value="重置"><input type="submit" value="登录"></p>
+    </form>
+    <form method="POST" action="server.php">
+            <p><label>姓名：<input name="username" type="text" placeholder="请输入您的姓名"></label></p>
+            <p><label>电话：<input name="tel" type="tel"></label></p>
+            <p><label>邮箱：<input name="email" type="email"></label></p>
+            <p><label>时间：<input name="date" type="date"></label></p>
+            <fieldset>
+                <legend>性别：</legend>
+                <p><label><input type="radio" name="sex" value="male" checked>男</label></p>
+                <p><label><input type="radio" name="sex" value="female">女</label></p>
+            </fieldset>
+            <p>
+                <label><input type="checkbox" name="rule">周末班好好学习</label>
+            </p>
+            <p>
+                <label for="equipment">董浩是：</label>
+                <select name="equipment">
+                    <option value="1">帅哥</option>
+                    <option value="2">大帅哥</option>
+                    <option value="3">文艺青年</option>
+                    <option value="4">好人</option>
+                </select>
+            </p>
+</body>
+</html>
