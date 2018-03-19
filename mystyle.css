@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(logo.png);
+    background-position: center center;
+    background: fixed;
+
+}
+div{
+    background-color: rgb(64, 160, 45);
+    height: 300px;
+    width: 300px;
+}
+p{
+    position: absolute;
+    background-color:red; 
+    margin-left: 25px;
+}
