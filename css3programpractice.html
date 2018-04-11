@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>practice1</title>
+    <style type="text/css">
+        h1{
+            text-shadow: 5px 5px 5px red,-5px -5px 5px red;/*左右 上下 模糊度 颜色*/
+        }
+        h2{
+            font-size: 120px;
+           text-shadow: 0 -8px 8px white,0 -10px 8px yellow, 0 -12px 8px red; /*火焰字*/
+        }
+        h3{
+            -webkit-text-stroke:3px red;/*描边，目前只支持-webkit*/
+            font-size: 160px;
+            color: transparent;/*字体颜色透明，做成了镂空字体样式*/
+        }
+        #box{
+            width: 200px;
+            border: 1px solid black;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }/*隐藏掉多余的部分，把多余的部分变成省略号*/
+    </style>
+</head>
+<body>
+    <h1>hello</h1>
+    <h2>你好！</h2>
+    <h3>123</h3>
+    <div id="box">
+        hjgfiuwqegilfgliegfiltfewqyfegiulyqetgfdiqtgilfilqitgiiqei
+    </div>
+</body>
+</html>
