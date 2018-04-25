@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--为了确保适当的绘制和触屏缩放，需要在<head>之中添加viewport元数据标签-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--在移动设备浏览器上，通过为视口（viewport）设置meta属性为user-scalable=no可以禁用其缩放功能-->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container{
+            background-color: aqua;
+        }
+        .container-fluid{
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <form class="form-horizontal">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                      <div class="col-sm-10">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox"> Remember me
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Sign in</button>
+                      </div>
+                    </div>
+                  </form>
+        <p>1123</p>
+        <div class="row">
+            <div class="col-md-8">col-md-8</div>
+            <div class="col-md-4">col-md-4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+            <div class="col-md-1">.col-md-1</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-4">.col-md-4</div>
+            <div class="col-md-4">.col-md-4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">.col-md-6</div>
+            <div class="col-md-6">.col-md-6</div>
+        </div>
+        <div class="row">
+                <div class="col-sm-9">
+                  Level 1: .col-sm-9
+                  <div class="row">
+                    <div class="col-xs-8 col-sm-6">
+                      Level 2: .col-xs-8 .col-sm-6
+                    </div>
+                    <div class="col-xs-4 col-sm-6">
+                      Level 2: .col-xs-4 .col-sm-6
+                    </div>
+                  </div>
+                </div>
+              </div>  
+              <div class="row">
+                    <div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
+                    <div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
+                  </div>              
+    </div>
+    <div class="container-fluid">
+            <div class="row">
+                    <div class="row">
+                            <div class="col-md-1">.col-md-1</div>
+                            <div class="col-md-1">.col-md-1</div>
+                            <div class="col-md-1">.col-md-1</div>
+                            <div class="col-md-1">.col-md-1</div>
+                            <div class="col-md-1">.col-md-1</div>
+                            <div class="col-md-1">.col-md-1</div>
+                            <div class="col-md-1">.col-md-1</div>
+                            <div class="col-md-1">.col-md-1</div>
+                            <div class="col-md-1">.col-md-1</div>
+                            <div class="col-md-1">.col-md-1</div>
+                            <div class="col-md-1">.col-md-1</div>
+                            <div class="col-md-1">.col-md-1</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">.col-md-4</div>
+                            <div class="col-md-4">.col-md-4</div>
+                            <div class="col-md-4">.col-md-4</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">.col-md-6</div>
+                            <div class="col-md-6">.col-md-6</div>
+                        </div>
+                        <div class="row">
+                                <div class="col-md-4">.col-md-4</div>
+                                <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+                                <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+                              </div>
+            </div>
+            <div class="row">
+                    <div class="col-xs-9">.col-xs-9</div>
+                    <div class="col-xs-4">.col-xs-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+                    <div class="col-xs-6">.col-xs-6<br>Subsequent columns continue along the new line.</div>
+                  </div>
+          </div>
+          <p>这是一段代码：<code>jieiofue</code></p>
+          <p>这是一段代码：<kbd>jieiofue</kbd></p>
+          <!--对尖括号进行转义-->
+          <pre>&lt;p&gt;Sample text here...&lt;/p&gt;</pre>
+          <!---通过var标签标记变量-->
+          <var>y</var>=<var>m</var><var>x</var>+<var>c</var>
+          <br>
+          <!--程序输出-->
+          <samp>This text is meant to be treated as sample output from a computer program.</samp>
+          <table class="table">
+                <tr>
+                    <td>姓名</td>
+                    <td>班级</td>
+                    <td>学号</td>
+                </tr>
+                <tr>
+                    <td>唐三</td>
+                    <td>一年级</td>
+                    <td>123456</td>
+                </tr>
+          </table>
+          <table class="table table-striped">
+                <tr>
+                    <td>姓名</td>
+                    <td>班级</td>
+                    <td>学号</td>
+                </tr>
+                <tr>
+                    <td>唐1</td>
+                    <td>一年级</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>唐1</td>
+                    <td>一年级</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>唐1</td>
+                    <td>一年级</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>唐1</td>
+                    <td>一年级</td>
+                    <td>56</td>
+                </tr>
+          </table>
+          <table class="table table-bordered">
+                <tr>
+                    <td>姓名</td>
+                    <td>班级</td>
+                    <td>学号</td>
+                </tr>
+                <tr>
+                    <td>唐三</td>
+                    <td>一年级</td>
+                    <td>123456</td>
+                </tr>
+          </table>
+          <table class="table table-hover">
+                <tr>
+                    <td>姓名</td>
+                    <td>班级</td>
+                    <td>学号</td>
+                </tr>
+                <tr>
+                    <td>唐三</td>
+                    <td>一年级</td>
+                    <td>123456</td>
+                </tr>
+          </table>
+          <table class="table table-condensed">
+                <tr>
+                    <td>姓名</td>
+                    <td>班级</td>
+                    <td>学号</td>
+                </tr>
+                <tr>
+                    <td>唐三</td>
+                    <td>一年级</td>
+                    <td>123456</td>
+                </tr>
+                <tr>
+                    <td>唐三</td>
+                    <td>一年级</td>
+                    <td>123456</td>
+                </tr>
+                <tr>
+                    <td>唐三</td>
+                    <td>一年级</td>
+                    <td>123456</td>
+                </tr>
+                <tr>
+                    <td>唐三</td>
+                    <td>一年级</td>
+                    <td>123456</td>
+                </tr>
+                <tr>
+                    <td class="active">...</td>
+                    <td class="success">...</td>
+                    <td class="warning">...</td>
+                    <td class="danger">...</td>
+                    <td class="info">...</td>
+                </tr>
+          </table>
+          <!--将任何 .table 元素包裹在 .table-responsive 元素内，即可创建响应式表格，其会在小屏幕设备上（小于768px）水平滚动。当屏幕大于 768px 宽度时，水平滚动条消失。-->
+          <div class="table-responsive">
+                <table class="table">
+                  <tr>
+                      <td>banji</td>
+                      <td>xuehao</td>
+                      <td>xingming</td>
+                  </tr>
+                  <tr>
+                      <td>wuming</td>
+                      <td>123</td>
+                      <td>456</td>
+                  </tr>
+                </table>
+            </div>
+            <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">邮箱地址</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="邮箱地址">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">密码</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="密码">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputFile">文件导入</label>
+                      <input type="file" id="exampleInputFile">
+                      <p class="help-block">Example block-level help text here.</p>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> 检查我
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">提交</button>
+            </form>
+    <form class="form-inline">
+        <div class="form-group">
+        <label for="exampleInputName2">Name</label>
+        <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+        </div>
+        <div class="form-group">
+        <label for="exampleInputEmail2">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+        </div>
+        <button type="submit" class="btn btn-default">Send invitation</button>
+    </form>
+    <form class="form-inline">
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputEmail3">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputPassword3">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-default">Sign in</button>
+          </form>
+          <form class="form-inline">
+                <div class="form-group">
+                  <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                  <div class="input-group">
+                    <div class="input-group-addon">$</div>
+                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+                    <div class="input-group-addon">.00</div>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Transfer cash</button>
+              </form>
+              <br>
+              <br>
+              <br>
+        <!--包括大部分表单控件、文本输入域控件，还支持所有 HTML5 类型的输入控件： text、password、datetime、datetime-local、date、month、time、week、number、email、url、search、tel 和 color。-->
+        <input type="text" class="form-control" placeholder="Text input">
+        <!--支持多行文本的表单控件。可根据需要改变 rows 属性。-->
+        <textarea class="form-control" rows="3"></textarea>
+        <div class="checkbox">
+                <label>
+                  <input type="checkbox" value="">
+                  Option one is this and that&mdash;be sure to include why it's great
+                </label>
+              </div>
+              <div class="checkbox disabled">
+                <label>
+                  <input type="checkbox" value="" disabled>
+                  Option two is disabled
+                </label>
+              </div>
+              
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                  Option one is this and that&mdash;be sure to include why it's great
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                  Option two can be something else and selecting it will deselect option one
+                </label>
+              </div>
+              <div class="radio disabled">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                  Option three is disabled
+                </label>
+              </div>
+              <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+                  </label>
+                  <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+                  </label>
+                  
+                  <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+                  </label>
+                  <select class="form-control">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+</body>
+</html>
