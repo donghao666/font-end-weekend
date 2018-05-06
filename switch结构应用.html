@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>switch结构应用</title>
+    <script>
+        var a=1,b=2;
+        switch(a){
+            case a:alert(b=3);break;
+            case 2:alert(a=2);break;
+            case 3:alert(a=3);break;
+            case 4:alert(a=4);break;
+            case b:alert(b=2);break;
+            default:
+                alert("无效");break;
+        }//当遇到break或者}时停止；
+
+        var s=82;
+        switch(true){
+            case s<=100&&s>=90:alert("A");break;
+            case s<90&&s>=80:alert("B");break;
+            case s<80&&s>=70:alert("C");break;
+            case s<70&&s>=60:alert("D");break;
+            case s<60:alert("E");break;
+            default:
+                alert("无效成绩");break;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
