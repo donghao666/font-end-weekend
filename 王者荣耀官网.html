@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>王者荣耀官网</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        .container-fluid{
+            background:url("297631500428442.jpg") no-repeat center center;
+            width: 100%;
+            height: 1100px;
+            position: relative;
+        }
+        .container-fluid-header .row{
+            background-color: rgba(0,0,0,0.8);
+            
+        }
+        .container-fluid-header-logo{
+            position: absolute;
+        }
+        .container-fluid .container-fluid-header ul{
+            height: 64px;
+            color: #c9c9dd;
+            font-size: 18px;
+            line-height: 30px;
+            margin-top: 15px;
+            position: relative;
+        }
+        .container-fluid .container-fluid-header .main-nav li a{
+            color: #c9c9dd;
+            text-decoration: none;
+        }
+        .container-fluid .container-fluid-header .main-nav li{
+            display: block;
+            float: left;
+            padding: 13px;
+            line-height: 32px;
+            margin-top: -14px;
+        }
+        .container-fluid .submit{
+            color: #c9c9dd;
+            position: relative;
+        }
+        .container-fluid .submit .logo2{
+            display: block;
+            position: absolute;
+            right: 153%;
+            top: 30px;
+            border: 1px solid gold;
+            border-radius: 50%;
+        }
+        .container-fluid .submit p{
+            width: 100%;
+            position: absolute;
+            right: 50%;
+            top: 30px;
+            color: white;
+            font-size: 16px;
+
+        }
+        .container-fluid .submit p a{
+            color: white;
+            text-decoration: none;
+        }
+        .container-fluid .submit p a:hover{
+            color: gold;
+        }
+        .container-fluid .submit p em{
+            color: #c9c9dd;
+            font-size: 12px;
+        }
+        .container-fluid .container-fluid-header .main-nav li em{
+            font-size: 12px;
+        }
+        .container-fluid .container-fluid-header .main-nav li:hover{
+            background-color: rgba(0, 0, 0, 0.952);
+            color: gold;
+            border-bottom:2px solid gold; 
+        }
+        .container-fluid .container-fluid-header .main-nav li ul{
+            display: none;
+            position: absolute;
+            width: 99px;
+            height: 330px;
+            background-color: rgba(0,0,0,0.8);
+            border-bottom: none;
+            left: 138px;
+            padding-left: 20px;
+        }
+        .container-fluid .container-fluid-header .main-nav li .sec-nav1{
+            display: none;
+            position: absolute;
+            width: 99px;
+            height: 200px;
+            background-color: rgba(0,0,0,0.8);
+            border-bottom: none;
+            left: 236px;
+            padding-left: 20px;
+        }
+        .container-fluid .container-fluid-header .main-nav li .sec-nav2{
+            display: none;
+            position: absolute;
+            width: 99px;
+            height: 360px;
+            background-color: rgba(0,0,0,0.8);
+            border-bottom: none;
+            left: 334px;
+            padding-left: 20px;
+        }
+        .container-fluid .container-fluid-header .main-nav li .sec-nav3{
+            display: none;
+            position: absolute;
+            width: 99px;
+            height: 270px;
+            background-color: rgba(0,0,0,0.8);
+            border-bottom: none;
+            left: 436px;
+            padding-left: 20px;
+        }
+        .container-fluid .container-fluid-header .main-nav li .sec-nav4{
+            display: none;
+            position: absolute;
+            width: 99px;
+            height: 360px;
+            background-color: rgba(0,0,0,0.8);
+            border-bottom: none;
+            left: 538px;
+            padding-left: 20px;
+        }
+        .container-fluid .container-fluid-header .main-nav li .sec-nav5{
+            display: none;
+            position: absolute;
+            width: 99px;
+            height: 330px;
+            background-color: rgba(0,0,0,0.8);
+            border-bottom: none;
+            left: 634px;
+            padding-left: 20px;
+        }
+        .container-fluid .container-fluid-header .main-nav li ul li{
+            clear: both;
+            margin-left: 0px;
+            padding-left: 0%;
+        }
+        .container-fluid .container-fluid-header .main-nav li:hover ul{
+            display: block;
+        }
+        .container-fluid .container-fluid-header .main-nav li:hover ul li{
+         background-color: transparent;
+         border: 0;
+         font-size: 13px;
+         padding-top:20px; 
+        }
+        .container-fluid .container-fluid-header .main-nav li:hover ul li:hover{
+            text-decoration: underline;
+            font-size: 16px;
+            
+        }
+        .container-fluid .container-fluid-header .main-nav li:hover ul li a:hover{
+            color: gold;
+        }
+
+        .container-fluid .link{
+            position: absolute;
+            width: 200px;
+            height: 50px;
+            background-color:transparent;
+            top: 456px;
+            left: 574px;
+        }
+        .container{
+            width: 1200px;
+            height: 481px;
+            margin-top: 463px;
+            background-color: white;
+        }
+         .container #slideshow{
+             width: 604px;
+             height: 298px;
+             overflow: hidden;
+             position: relative;
+             left: -55px;
+         }
+         .container #slideshow ul,.container #slideshow ul li{
+             position: absolute;
+             list-style: none;
+         }
+         /*.container #slideshow ul li:hover{
+             display: inline-block;
+         }*/
+         .container #slideshow-nav{
+             width: 564px;
+             height: 34px;
+             margin-left: -15px;
+             overflow: hidden;
+         }
+         .container #slideshow-nav ul{
+             display: block;
+             float:left;
+             margin-left: -31px;
+             background-color: rgba(0,0,0,0.8);
+         }
+         .container #slideshow-nav ul li{
+            display: block;
+             float:left;
+             list-style: none;
+             margin:13px;
+             line-height: 10px;
+         }
+         .container #slideshow-nav ul li a{
+            color: #c9c9dd;
+         }
+         .container #slideshow-nav ul li a:hover{
+             color: gold;
+             text-decoration: none;
+         }
+         .container .row .bq{
+             background-color:  rgba(0,0,0,0.8);
+             width: 305px;
+             height: 332px;
+             position: absolute;
+             left: -36px;
+             overflow: hidden;
+
+         }
+         .container .row .bq ul{
+            width: 332px;
+            height: 38px;
+            overflow: hidden;
+            position: absolute;
+            left: -8px;
+         }
+         .container .row .bq ul:hover{
+             background-color:black; 
+         }
+         .container .row .bq ul li{
+            display: block;
+            float: left;
+            margin: 9px;
+            line-height: 34px;
+         }
+         .container .row .bq ul li a{
+             color: white;
+
+         }
+         .container .row .bq ul li a:hover{
+             color: gold;
+             font-size: 16px;
+             text-decoration: none;
+             border-bottom: 2px solid gold;
+         }
+         hr {
+            margin-top: 39px;
+            margin-bottom: 20px;
+            border: 0;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container-fluid-header">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="container-fluid-header-logo">
+                        <a href="http://pvp.qq.com/"><img src="logo (1).png" alt="logo(1)"></a>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <ul class="main-nav clearfix">
+                            <li><a href="#">官网首页</a><br><em>HOME</em></li>
+                            <li><a href="#">游戏资料</a><br><em>DATA</em>
+                                <ul class="sec-nav">
+                                    <li><a href="#">版本介绍</a></li>
+                                    <li><a href="#">游戏介绍</a></li>
+                                    <li><a href="#">英雄资料</a></li>
+                                    <li><a href="#">爆料站&nbsp;</a></li>
+                                    <li><a href="#">故事站&nbsp;</a></li>
+                                    <li><a href="#">游戏壁纸</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">攻略中心</a><br><em>RAIDERS</em>
+                                <ul class="sec-nav1">
+                                    <li>攻略中心</li>
+                                    <li>英雄攻略</li>
+                                    <li>视频中心</li>
+                                </ul>
+                            </li>
+                            <li><a href="#">赛事中心</a><br><em>MATCH</em>
+                                <ul class="sec-nav2">
+                                    <li><a href="#">KPL</a></li>
+                                    <li><a href="#">高校赛</a></li>
+                                    <li><a href="#">城市赛</a></li>
+                                    <li><a href="#">QGC</a></li>
+                                    <li><a href="#">TGA</a></li>
+                                    <li><a href="#">WGC</a></li>
+                                    <li><a href="#">全民赛</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">商城/合作</a><br><em>STORE</em>
+                                <ul class="sec-nav3">
+                                    <li><a href="#">文化站</a></li>
+                                    <li><a href="#">音乐听</a></li>
+                                    <li><a href="#">万千世界</a></li>
+                                    <li><a href="#">百态王者</a></li>
+                                    <li><a href="#">信用卡</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">社区互动</a><br><em>COMMUNITY</em>
+                                <ul class="sec-nav4">
+                                    <li><a href="#">官方助手</a></li>
+                                    <li><a href="#">手Q部落</a></li>
+                                    <li><a href="#">微信圈子</a></li>
+                                    <li><a href="#">官方微博</a></li>
+                                    <li><a href="#">公众号</a></li>
+                                    <li><a href="#">订阅号</a></li>
+                                    <li><a href="#">同人社区</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">玩家支持</a><br><em>PLAYER</em>
+                                <ul class="sec-nav5">
+                                    <li><a href="#">守护平台</a></li>
+                                    <li><a href="#">健康系统</a></li>
+                                    <li><a href="#">客服专区</a></li>
+                                    <li><a href="#">礼包兑换</a></li>
+                                    <li><a href="#">自助服务</a></li>
+                                </ul>
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-md-offset-1">
+                    <div class="submit">
+                        <div class="logo2">
+                            <img src="下载.png" alt="小图标">
+                        </div>
+                        <p><a href="#">欢迎登录</a><br><em>登录后查看游戏成绩</em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#"><div class="link"></div></a>
+        <div class="container">
+            <div class=row>
+                <div class="col-md-6">
+                    <div id="slideshow">
+                        <ul>
+                            <li><img src="one.jpg" alt="one" id="pic1"></li>
+                            <li><img src="two.jpg" alt="two" id="pic2"></li>
+                            <li><img src="three.jpg" alt="three" id="pic3"></li>
+                            <li><img src="forth.jpg" alt="forth" id="pic4"></li>
+                            <li><img src="five.jpg" alt="five" id="pic5"></li>
+                        </ul>
+                    </div>
+                    <div id="slideshow-nav">
+                        <ul>
+                            <li><a href="#pic2">爱在王者峡谷</a></li>
+                            <li><a href="#pic3">马可波罗归来</a></li>
+                            <li><a href="#pic1">英雄介绍米莱狄</a></li>
+                            <li><a href="#pic4">一图识英雄</a></li>
+                            <li><a href="#pic5">XQ首档真人秀</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bq">
+                        <ul>
+                            <li><a href="#">全部</a></li>
+                            <li><a href="#">新闻</a></li>
+                            <li><a href="#">公告</a></li>
+                            <li><a href="#">活动</a></li>
+                            <li><a href="#">赛事</a></li>
+                        </ul>
+                        <hr>
+                        <div class="contant">
+                            <p><a href="#">关于“王牌上分”的郑重说明</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
